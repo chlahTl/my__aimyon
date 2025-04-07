@@ -1,10 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>내 홈페이지</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>아이묭 정보 페이지</title>
+  <style>
+    body {
+      font-family: 'Noto Sans KR', Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: url('aimyon.webp') no-repeat center center / cover;
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem;
+      position: relative;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 2;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0 0;
+    }
+    nav {
+      background-color: #444;
+      color: white;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff6f61;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    section h2 {
+      color: #ff6f61;
+      border-bottom: 2px solid #ff6f61;
+      padding-bottom: 0.5rem;
+    }
+    footer {
+      background-color: #444;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+    footer p {
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
-  <h1>아임욘 팬페이지에 오신 걸 환영합니다 🎵</h1>
+  <header>
+    <h1>아이묭 정보 페이지</h1>
+    <p>아이묭에 대한 모든 것을 알아보세요!</p>
+  </header>
+  <nav>
+    <a href="https://namu.wiki/w/%EC%95%84%EC%9D%B4%EB%AC%AD">아이묭 나무위키</a>
+    <a href="https://music.youtube.com/watch?v=4dTduRcOjIo&list=OLAK5uy_n09Eu0vgdgBe-9UrXqGlNQASV1-bwGsNo">최애곡</a>
+    <a href="내한함">도라에에에엥몽</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>아이묭 소개</h2>
+      <p>아이묭은 일본의 싱어송라이터로, 독특한 음악 스타일과 감성적인 가사로 많은 사랑을 받고 있습니다.</p>
+    </section>
+    <section id="music">
+      <h2>대표 음악</h2>
+      <ul>
+        <li>マリーゴールド - Marigold</li>
+        <li>ハルノヒ - Harunohi</li>
+        <li>夢追いベンガル - Dream Chaser Bengal</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>한마디</h2>
+      <p>애니 보고 싶당당</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 아이묭 정보 페이지. 모든 권리 보유는 하지 않음.ㅋ</p>
+  </footer>
 </body>
-</html>
+</html></section>
